@@ -1,0 +1,63 @@
+<!doctype html>
+<html>
+<head>
+<meta charset="utf-8">
+<title>Documento sin título</title>
+<link href="../css/style.css" rel="stylesheet" type="text/css">
+<style type="text/css">
+video   {
+    margin: 0 auto;
+    display: block;
+    width: 50%;
+    height: auto;
+}
+main section iframe {
+    margin: 0 auto;
+    display: block;
+}
+</style>
+</head>
+
+<body>
+<header>
+  <h1>Video en HTML</h1>
+&nbsp;</header>
+<nav><ul>
+    <li><a href="../index.html"Inicio>Inicio</a></li>
+    <li><a href="../html/Galeria.html"Galeria>Galeria</a></li>
+    <li><a href="../html/Practicas.html"Prácticas>Prácticas</a></li>
+    <li><a href="../html/Contacto.html"Contactanos>Contactanos</a></li>
+</ul></nav>
+<main>
+  <section>
+    <h2>Video</h2>
+    <p>Inserción de video con un metodo clásico</p>
+    <video controls>
+      <source src="../Video/sound_recording_-_121113 (1080p).mp4" type="video/mp4">
+    </video>
+  </section>
+  <section>
+    <h2>Video con autoloop y muted</h2>
+    <p>Este metodo nos muestra la manera en la que los videos son desplegados en un autoloop, incluyendo el mute dentro del contenido asi como la eliminación de los controles del reproductor</p>
+    <video muted="muted" autoplay="autoplay" loop="loop" >
+      <source src="../Video/Lucas & Steve - Perfect (feat. Haris) [Official Music Video].mp4" type="video/mp4">
+    </video>
+  </section>
+  <section>
+    <h2>Video con Wallpaper</h2>
+    <p>Cuando la pagina es recien cargada se despliega una imágen de wallpaper para dar paso a la presentación del contenido</p>
+    <video poster="../image/582236.jpg" controls="controls" autoplay="autoplay" loop="loop" >
+      <source src="../Video/like_-_20919 (Original).mp4" type="video/mp4">
+    </video>
+  </section>
+  <section>
+    <h2>Video de repositor</h2>
+    <p>Extraido directamente de un servicio de repositor de videos permitiendola visualización de dichos sin perder el enfoque principal por el cual se comunican ciertas cosas</p>
+	<iframe width="560" height="315" src="https://www.youtube.com/embed/TGIp0jehZXE?si=J2tbyVQptK_CCZqL" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowfullscreen></iframe>
+ </section>
+</main>
+<footer>
+  <h6>Elaborado por: Oscar Garduño&nbsp;</h6>
+&nbsp;</footer>
+</body>
+</html>

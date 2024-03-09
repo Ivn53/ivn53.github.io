@@ -1,0 +1,62 @@
+<!doctype html>
+<html>
+<head>
+<meta charset="utf-8">
+<title>Audios en HTML</title>
+<link href="../css/style.css" rel="stylesheet" type="text/css">
+<style type="text/css">
+main section  {
+    display: inline-block;
+    margin: 20px;
+    height: 300px;
+    overflow-y: auto;
+    padding: 40px;
+    width: 35%;
+}
+main {
+    text-align: center;
+}
+</style>
+</head>
+
+<body>
+<header>
+  <h1>Audios en HTML</h1>
+</header>
+<nav><ul>
+    <li><a href="../index.html"Inicio>Inicio</a></li>
+    <li><a href="../html/Galeria.html"Galeria>Galeria</a></li>
+    <li><a href="../html/Practicas.html"Prácticas>Prácticas</a></li>
+    <li><a href="../html/Contacto.html"Contactanos>Contactanos</a></li>
+</ul></nav>
+<main>
+  <section>
+    <h2>Audio</h2>
+    <p>Inserción de un audio normal en un sitio web.</p>
+    <audio controls>
+      <source src="../audios/Aud 1.mp3" type="audio/mp3">
+    </audio>
+  &nbsp;</section>
+  <section>
+    <h2>Audio silenciado (Mute)</h2>
+    <p>Tras la configuración de las propiedades del audio, hay posibilidades de insertar audios en completo mute.</p>
+    <audio controls="controls" muted="muted" autoplay="autoplay" >
+      <source src="../audios/Aud 1.mp3" type="audio/mp3">
+    </audio>
+  &nbsp;</section>
+  <section>
+    <h2>Audio con reproducción ciclica (loop)</h2>
+    <p>Cuando el audio termina de reproducirse este va a continuar su reproducción gracias a la propiedad de la herramienta: loop.</p>
+    <audio controls="controls" loop="loop" >
+      <source src="../audios/Aud 1.mp3" type="audio/mp3">
+    </audio>
+  &nbsp;</section>
+  <section>
+    <h2>Audio desde Banco De Audios</h2>
+    <p>Un banco de audios nos sirve para llamar la atención de internautas y asi promocionar productos o servicios con los recursos de otro sitio, siempre y claro se pongan sus respectivos derechos de autor</p>
+    <iframe frameborder='0' allowfullscreen='' scrolling='no' height='200' style='width:100%;' src='https://www.ivoox.com/player_ej_103896436_6_1.html?c1=7b68ee#7B68EE#7B68EE' loading='lazy'></iframe>
+  </section>
+&nbsp;</main>
+<footer>Elaborado por: Oscar Garduño&nbsp;</footer>
+</body>
+</html>
